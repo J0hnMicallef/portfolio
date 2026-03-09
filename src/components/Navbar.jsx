@@ -36,7 +36,7 @@ export default function Navbar() {
     >
       <div className={styles.inner}>
         {/* Logo */}
-        <NavLink to="/portfolio/" className={styles.logo}>
+        <NavLink to="/" className={styles.logo}>
           <span className={styles.logoBracket}>&lt;</span>
           <span className={styles.logoName}>{CONFIG.name.split(' ')[0]}</span>
           <span className={styles.logoBracket}>/&gt;</span>

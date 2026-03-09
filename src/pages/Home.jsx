@@ -121,11 +121,11 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 1.1 }}
             >
-              <Link to="/portfolio/projects" className={styles.btnPrimary}>
+              <Link to="/projects" className={styles.btnPrimary}>
                 <span>Voir mes projets</span>
                 <Arrow />
               </Link>
-              <Link to="/portfolio/about" className={styles.btnSecondary}>
+              <Link to="/about" className={styles.btnSecondary}>
                 En savoir plus
               </Link>
             </motion.div>
