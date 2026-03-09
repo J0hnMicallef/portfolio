@@ -33,7 +33,7 @@ function AnimatedRoutes() {
         transition={pageTransition}
       >
         <Routes location={location}>
-          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/journey" element={<Journey />} />
