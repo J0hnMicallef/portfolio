@@ -1,0 +1,206 @@
+.page {
+  padding-top: calc(var(--nav-height) + 60px);
+  padding-bottom: 80px;
+  min-height: 100vh;
+}
+
+.intro {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+  line-height: 1.7;
+}
+
+.usernameLink {
+  color: var(--accent-cyan);
+  transition: color var(--transition-fast);
+}
+
+.usernameLink:hover {
+  color: var(--accent-green);
+}
+
+/* ── Controls ── */
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.searchWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchWrap svg {
+  position: absolute;
+  left: 0.875rem;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.search {
+  width: 100%;
+  max-width: 380px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 0.6rem 0.875rem 0.6rem 2.25rem;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 0.83rem;
+  outline: none;
+  transition: border-color var(--transition-fast);
+}
+
+.search:focus {
+  border-color: rgba(0, 212, 255, 0.4);
+}
+
+.search::placeholder {
+  color: var(--text-muted);
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.filterBtn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.filterBtn:hover {
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+}
+
+.filterBtn.active {
+  background: rgba(0, 212, 255, 0.1);
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+}
+
+/* ── Results ── */
+.resultCount {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  margin-bottom: 1.5rem;
+}
+
+.countNum {
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+
+.countLabel {
+  color: var(--text-muted);
+}
+
+/* ── Grid ── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+/* ── Loading ── */
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 5rem 0;
+}
+
+.loadingDots {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.loadingDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent-cyan);
+  display: block;
+}
+
+.loadingText {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+/* ── Error ── */
+.error {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: rgba(255, 107, 53, 0.08);
+  border: 1px solid rgba(255, 107, 53, 0.25);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.errorIcon {
+  font-size: 1.5rem;
+  color: var(--accent-orange);
+  flex-shrink: 0;
+}
+
+.errorTitle {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent-orange);
+  margin-bottom: 0.25rem;
+}
+
+.errorMsg {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.errorHint {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.errorHint code {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  color: var(--accent-cyan);
+}
+
+/* ── Empty ── */
+.empty {
+  text-align: center;
+  padding: 5rem 0;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.emptyIcon {
+  font-size: 2rem;
+  color: var(--text-muted);
+}
