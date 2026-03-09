@@ -47,7 +47,8 @@ function AnimatedRoutes() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    
+    <BrowserRouter basename="/portfolio">
       <div className="noise-bg scanlines">
         <Navbar />
         <AnimatedRoutes />
