@@ -34,7 +34,7 @@ export const CONFIG = {
       { label: 'Années d\'expérience', value: '2+' },
       { label: 'Technologies abordées', value: '15+' },
     ],
-    avatar: '../../public/img/maPhotosCV.png', // URL d'une image ou null pour placeholder
+    avatar: '/public/img/maPhotosCV.png', // URL d'une image ou null pour placeholder
   },
 
   // ── Compétences (savoir faire) ──
