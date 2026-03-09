@@ -2,6 +2,7 @@
 // ║          CONFIGURATION DU PORTFOLIO              ║
 // ║      ← Modifiez ce fichier pour personnaliser →  ║
 // ╚══════════════════════════════════════════════════╝
+import avatar from '/img/maPhotosCV.png'
 
 export const CONFIG = {
   // ── Identité ──
@@ -34,7 +35,7 @@ export const CONFIG = {
       { label: 'Années d\'expérience', value: '2+' },
       { label: 'Technologies abordées', value: '15+' },
     ],
-    avatar: '/public/img/maPhotosCV.png', // URL d'une image ou null pour placeholder
+    avatar: avatar, // URL d'une image ou null pour placeholder
   },
 
   // ── Compétences (savoir faire) ──
