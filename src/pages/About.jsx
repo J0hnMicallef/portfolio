@@ -106,7 +106,7 @@ export default function About() {
             {/* CTA */}
             <ScrollReveal delay={0.35}>
               <div className={styles.ctas}>
-                <Link to="/projects" className={styles.ctaPrimary}>
+                <Link to="/portfolio/projects" className={styles.ctaPrimary}>
                   Voir mes projets →
                 </Link>
                 <a href={`mailto:${CONFIG.email}`} className={styles.ctaSecondary}>

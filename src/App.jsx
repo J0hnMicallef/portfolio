@@ -34,10 +34,10 @@ function AnimatedRoutes() {
       >
         <Routes location={location}>
           <Route path="/portfolio" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/journey" element={<Journey />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/portfolio/projects" element={<Projects />} />
+          <Route path="/portfolio/skills" element={<Skills />} />
+          <Route path="/portfolio/journey" element={<Journey />} />
+          <Route path="/portfolio/about" element={<About />} />
         </Routes>
         <Footer />
       </motion.div>
