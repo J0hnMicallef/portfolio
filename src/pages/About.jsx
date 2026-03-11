@@ -109,9 +109,6 @@ export default function About() {
                 <Link to="/projects" className={styles.ctaPrimary}>
                   Voir mes projets →
                 </Link>
-                <a href={`mailto:${CONFIG.email}`} className={styles.ctaSecondary}>
-                  Me contacter
-                </a>
               </div>
             </ScrollReveal>
           </div>

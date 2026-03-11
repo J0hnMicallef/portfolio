@@ -59,14 +59,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* CTA */}
-        <a
-          href={`mailto:${CONFIG.email}`}
-          className={styles.cta}
-        >
-          Contact
-        </a>
-
         {/* Burger */}
         <button
           className={`${styles.burger} ${menuOpen ? styles.burgerOpen : ''}`}
