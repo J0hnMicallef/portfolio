@@ -23,7 +23,6 @@ export const CONFIG = {
   // ── Réseaux sociaux ──
   social: {
     github: 'https://github.com/J0hnMicallef',
-    linkedin: 'https://linkedin.com/in/votre-profil',
   },
 
   // ── À propos ──
