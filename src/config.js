@@ -9,7 +9,7 @@ export const CONFIG = {
   name: 'John Micallef',
   title: 'Étudiant en informatique',
   tagline: 'Passionné par l\'informatique (Dev, IA, Web, Ops, etc.).',
-  email: 'johnmclf@email.com',
+  email: 'johnmclf@gmail.com',
   location: 'Nevers, France',
 
   // ── GitHub ──
